@@ -13,6 +13,7 @@ export default defineConfig({
       apiOptions: {}, // storyblok-js-client options
       components: {
         page: "storyblok/Page",
+        config: "storyblok/Config",
         feature: "storyblok/Feature",
         grid: "storyblok/Grid",
         teaser: "storyblok/Teaser",
